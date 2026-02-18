@@ -1,6 +1,10 @@
+version: "3.8"
+
 services:
   app:
     image: vanshfaye/hrms:1.0
+    container_name: hrms_app
     ports:
       - "3000:3000"
     restart: always
+
